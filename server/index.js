@@ -29,3 +29,7 @@ app.use(routes);
 dbInit();
 
 app.listen(PORT, () => console.log(`Server is running on port ${PORT}...`));
+
+
+// admin, user, guest (authcontroller, authmiddleware) https://www.youtube.com/watch?v=fUWkVxCv4IQ
+// vij tova s mongoose v terminala
